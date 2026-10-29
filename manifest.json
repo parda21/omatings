@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "omatings",
+  "name": "Settings",
+  "version": "0.1.0",
+  "author": "Paul Otto",
+  "description": "GNOME-style settings app for Omarchy. Summon with: omarchy-shell shell toggle omatings '{\"page\":\"displays\"}'",
+  "kinds": [
+    "panel"
+  ],
+  "entryPoints": {
+    "panel": "Settings.qml"
+  }
+}
